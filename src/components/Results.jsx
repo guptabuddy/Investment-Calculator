@@ -24,6 +24,7 @@ export default function Results({ userInput }) {
 
 					return (
 						<tr key={yearData.year}>
+							{/* Above key is used to identify the rows, so that React can identify which row is being updated and which is being added. If we don't use the key, React will not be able to identify which row is being updated and which is being added. This is the same as we used to do with the List items.*/}
 							<td>{yearData.year}</td>
 							<td>{formatter.format(yearData.valueEndOfYear)}</td>
 							<td>{formatter.format(yearData.interest)}</td>

@@ -68,6 +68,7 @@ body {
 	margin: 2rem auto;
 	padding: 1rem;
 	table-layout: fixed;
+	/* border: 2px solid #76c0ae; */
 	border-spacing: 1rem;
 	text-align: right;
 }
